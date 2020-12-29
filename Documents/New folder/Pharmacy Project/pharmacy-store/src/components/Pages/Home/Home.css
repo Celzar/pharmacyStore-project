@@ -1,0 +1,98 @@
+
+/* Signup Box default style*/
+div div#HomeBox{    
+    /* border-radius:  */
+        background: #F05D5E;
+        box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+        /* height: '80%'; */
+        width: 45%;
+        padding: 1%;
+    }
+    
+    /* Signup Button default style*/
+    div div div form center button#HomeButton{
+        background: #272932;
+        color: #FF715B;
+        border: 1px solid #FF715B;
+         padding: 1% 5% 1% 5%;
+         
+    }
+    
+    /* Signup Button default style*/
+    div div div form center button#HomeButton:hover{
+    
+        background: white;
+        color: #272932;
+    
+    }
+    
+
+    div div div div#branner{
+        background-image:url('https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-position: center;
+        color: #000000;
+        position: relative;
+        height:30vh
+        
+    }
+
+    
+
+
+    /* @Media Query */
+    
+    /* less than or equal to 576px     */
+    @media only screen and (max-width: 576px){
+        /* Signup Box responsive*/
+        div div#HomeBox{
+        background: #F05D5E;
+        box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+        width: 100%;
+        padding: 1%;
+     }   
+    }
+    
+    /* greater than or equal to 576px  */
+    @media only screen and (min-width: 576px){
+        div div#HomeBox{
+            background: #F05D5E;
+            box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+            width: 100%;
+            padding: 1%;
+         }   
+    }
+    
+     /* Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px){
+        /* Signup Box responsive*/
+        div div#HomeBox{
+            background: #F05D5E;
+            box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+            width: 60%;
+            padding: 1%;
+         }   
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px){
+        /* Signup Box responsive*/
+        div div#HomeBox{
+            background: #F05D5E;
+            box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+            width: 45%;
+            padding: 1%;
+         }   
+    }
+    
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px){
+        /* Signup Box responsive*/
+        div div#HomeBox{
+            background: #F05D5E;
+            box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+            width: 80%;
+            padding: 1%;
+         }   
+    }
+    
+    

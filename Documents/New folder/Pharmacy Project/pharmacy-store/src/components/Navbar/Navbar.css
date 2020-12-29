@@ -1,0 +1,108 @@
+
+/* set default background and color for navigation bar  */
+
+
+/* @Link color (a tag)*/
+a#navLink{
+    color: #f1faee
+}
+
+
+
+/*@ Toggle Navbar */
+/*=> div Row Col div#buttonList */
+div div  div div#buttonList {
+    display: none;
+    font-size: 2em;
+    box-sizing: border-box;
+    
+}
+/* div div  div div#buttonList svg{
+    cursor: pointer
+} */
+
+
+
+
+
+/*@ Media Query*/
+
+/* less than or equal to 576px     */
+
+@media only screen and (max-width: 576px){ 
+
+    div div  div div#buttonList {
+        display: block
+    }
+
+    div div  div center#Navbar {
+        display: none
+    }
+
+    /* div div div#sidebar{
+        display: none
+    } */
+ }
+ 
+/* greater than or equal to 576px  */    
+ @media only screen and  (min-width:576px){ 
+
+    div div  div div#buttonList {
+        display: block
+    }
+
+    div div  div center#Navbar {
+        display: none
+    }
+
+ }
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px){ 
+    div div  div div#buttonList {
+        display: none
+    }
+
+    div div div#sidebar{
+        display: none
+    }
+
+    div div  div center#Navbar {
+        display: block
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+    div div  div div#buttonList {
+        display: none
+    }
+
+    div div div#sidebar{
+        display: none
+    }
+
+    div div  div center#Navbar {
+        display: block
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    div div  div div#buttonList {
+        display: none
+    }
+
+    div div div#sidebar{
+        display: none
+    }
+
+    div div  div center#Navbar {
+        display: block
+    }
+
+
+ }

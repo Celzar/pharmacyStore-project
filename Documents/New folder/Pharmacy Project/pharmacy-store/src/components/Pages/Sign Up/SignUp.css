@@ -1,0 +1,84 @@
+
+/* Signup Box default style*/
+div div#SignupBox{    
+/* border-radius:  */
+    background: #F05D5E;
+    box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+    /* height: '80%'; */
+    width: 45%;
+    padding: 1%;
+}
+
+/* Signup Button default style*/
+div div div form center button#SignupButton{
+    background: #272932;
+    color: #FF715B;
+    border: 1px solid #FF715B;
+     padding: 1% 5% 1% 5%;
+     
+}
+
+/* Signup Button default style*/
+div div div form center button#SignupButton:hover{
+
+    background: white;
+    color: #272932;
+
+}
+
+/* @Media Query */
+
+/* less than or equal to 576px     */
+@media only screen and (max-width: 576px){
+    /* Signup Box responsive*/
+    div div#SignupBox{
+    background: #F05D5E;
+    box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+    width: 100%;
+    padding: 1%;
+ }   
+}
+
+/* greater than or equal to 576px  */
+@media only screen and (min-width: 576px){
+    div div#SignupBox{
+        background: #F05D5E;
+        box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+        width: 100%;
+        padding: 1%;
+     }   
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+    /* Signup Box responsive*/
+    div div#SignupBox{
+        background: #F05D5E;
+        box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+        width: 60%;
+        padding: 1%;
+     }   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    /* Signup Box responsive*/
+    div div#SignupBox{
+        background: #F05D5E;
+        box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+        width: 45%;
+        padding: 1%;
+     }   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    /* Signup Box responsive*/
+    div div#SignupBox{
+        background: #F05D5E;
+        box-shadow: 20px 20px 60px #cc4f50, -20px -20px 60px #ff6b6c;
+        width: 45%;
+        padding: 1%;
+     }   
+}
+
